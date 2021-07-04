@@ -50,20 +50,102 @@ body{
     font-size: 25px;
     font-weight: 300;
 }
-.first-content a{
+.style{
     display: inline-block;
     text-decoration: none;
     background-image: linear-gradient(red,orange);
     padding: 10px 26px;
     color: #fff;
-    margin-top: 11px;
+    margin-top: 5px;
+    border-radius: 7px;
 }
 .second-content{
     float: right;
     text-align: center;
     margin-top: 40px;
 }
-.second-content img{
-    
+.second-content img{   
     width: 85%;
+}
+.content-third{
+    text-align: center;
+    float: left;
+}
+.content-third img{
+    margin-left: 100px;
+    width: 70%;
+}
+.content-forth{
+    float: right;
+    margin-right: 116px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 100px 0;
+}
+.content-forth{}
+.content-forth h1{
+    font-size: 45px;
+    margin-bottom: 24px;
+    margin-top: 45px;
+}
+.content-forth h4{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.content-forth p{
+    font-size: 20px;
+    font-weight: 200;
+}
+/* experience */
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    padding-bottom: 80px;
+}
+.erperience-first h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.show-experience{
+    padding: 50px 0;
+}
+
+.pro-develop{
+    margin-left: 150px;
+    float: left;
+    width: 35%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    box-shadow: grey 5px 7px 40px;
+    border-left: 7px solid #8ee861;
+}
+.pro-develop h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.pro-develop h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.pro-develop p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.style-p p{
+    margin-bottom: 45px;
+}
+
+.copy {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
 }
